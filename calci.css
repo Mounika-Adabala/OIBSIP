@@ -1,0 +1,67 @@
+body
+{
+    margin: 0;
+    padding: 50px 0px;
+    background-image: url("D:/PDF/calc.jpg");
+    background-repeat: no-repeat,fixed;
+}
+table{
+    background-color:black;
+    padding: 2px 2px 2px 2px;
+    border: 10px solid black;
+    text-align: center;
+    padding-bottom: 0px;
+    box-shadow: 2px 2px 2px 2px black;
+    border-radius: 10%;
+    margin-top: 9opx;
+}
+button.equal
+{
+    width: 180%;
+    background:white;
+}
+button.equal:hover
+{
+    background-color:darkmagenta ;
+}
+button.clear
+{
+    background-color:white;
+}
+button.clear:hover
+{
+    background-color: darkgreen;
+}
+input[type="text"]
+{
+    width:450px;
+    height:60px;
+    border:1px solid black;
+    padding: 10px 20px;
+    font-size: 29px;
+    background: black;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-family: cursive;
+    margin-top: #dedede;
+    border-bottom:2px solid white;
+    border-radius: 0%;
+    color: bisque;
+}
+button{
+    padding: 10px 20px;
+    width:100px;
+    height:60px;
+    border-radius: 30%;
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight:bold;
+    font-family:cursive;
+    background-color: rgb(131, 212, 91);
+    border: none;
+    color:red;
+    cursor: pointer;
+}
+button:hover{
+    background-color: lightsteelblue;
+}
